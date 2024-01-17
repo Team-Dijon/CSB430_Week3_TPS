@@ -10,7 +10,7 @@ The Card Matching Game "Memory" (a web game)
 ### Functional:
 Card grid, Score board, Click on cards to reveal them, timer/lives component, Keep track of found pairs and hide found cards on the grid, Match all cards to win, Game settings, Difficulty levels, Game levels 
 ### Non-Functional:
-User-interface, User-experience
+interactive User-interface, responsive and enjoyable User-experience
 
 ## 3. Choosing the Architectural Style
 ### Decision:
@@ -21,7 +21,7 @@ The design of the game best supports the MVC architecture because we need a game
 
 ## 4. High-Level Design
 ### Model: 
-Card Data, Level Data, Difficulty Settings Data
+Card Data, Level Data, Difficulty Settings Data, art assets
 ### View: 
 Game UI, Card Grid, Display Game Data, Display setting menu
 ### Controller: 
