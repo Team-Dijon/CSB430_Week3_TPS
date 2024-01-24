@@ -42,16 +42,16 @@ Connect Model and View Logic, on click event handlers
 - ConfigClass - For user Settings (session/cookie storage)
 
 ### Step 3:
-**a**
+### **a**
 - ControllerClass -> Initialization: Takes in the view and model classes to maintain a reference. Tells model class to either pull in art assets (either from 3rd party or the repo where the project lives).
 - ControllerClass -> Shuffle: Seeds a random value and then shuffles the deck of cards to match
-**b**
+### **b**
 - This project is not complex enough to justify the use of interfaces. Also, we plan on building the project in JavaScript which may not even support interfaces.
-**c**
+### **c**
 - Model: cardArt: an object collection of int identifiers and image references
 - Model: userConfig: JSON object with user configuration settings such as difficulty or sound on/off
 - Model: uiConstants: strings and numbers used for parts of the UI that we may want to make extra fancy but also want to be consistent
-**d**
+### **d**
 - View class: receives the id of cards that were clicked by the user and sends them to the controller -> Controller class: receives the id of cards, compares them and returns whether they are matches. returns the result back to the view class. -> View class: resets the two cards (puts them in face down state) that were clicked if they were not matches. Leaves them face up if they were matches -> Calls a method on controller class to check if the player won.
   
 ### Step 4:
