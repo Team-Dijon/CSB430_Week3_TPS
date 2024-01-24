@@ -21,8 +21,11 @@ The design of the game best supports the MVC architecture because we need a game
 
 ## 4. High-Level Design
 ### Model: 
-Card Data, Level Data, Difficulty Settings Data, art assets
+Card Data, Game Logic, Level Data, Difficulty Settings Data, art assets
 ### View: 
 Game UI, Card Grid, Display Game Data, Display setting menu
 ### Controller: 
-game logic, on click event handlers
+Connect Model and View Logic, on click event handlers
+
+# CSB430_Week4_TPS
+
